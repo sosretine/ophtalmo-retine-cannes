@@ -169,3 +169,4 @@ a.une:hover{transform:translateY(-6px) rotate(-.4deg);box-shadow:0 22px 40px rgb
 .une .au{font-size:13.5px;line-height:1.45;color:var(--muted)}
 .une .au b{color:#1B2430}
 .une .go{margin-top:auto;font-family:var(--head);font-weight:600;font-size:13px;color:var(--c)}
+.une .new{position:absolute;top:18px;right:16px;font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:#E8590C;color:#fff;padding:3px 9px;border-radius:999px}
