@@ -111,7 +111,7 @@ footer.site .legal{grid-column:1/-1;border-top:1px solid #234566;padding-top:20p
 .page-head{position:relative;overflow:hidden;isolation:isolate}
 .page-head[class*="ph-"]{background:#0D2C4B;padding-block:72px;min-height:340px;display:flex;align-items:center}
 .page-head[class*="ph-"] .wrap{width:100%}
-.page-head[class*="ph-"]::after{content:"";position:absolute;top:0;right:0;bottom:0;width:52%;z-index:-1;pointer-events:none;background:url(images/planche-lobules-couleur.jpg) center 45%/cover no-repeat;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 22%);mask-image:linear-gradient(to right,transparent 0%,#000 22%)}
+.page-head[class*="ph-"]::after{content:"";position:absolute;top:0;right:0;bottom:0;width:52%;z-index:-1;pointer-events:none;background:url(images/banniere-endoscopie.jpg) center 50%/cover no-repeat;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 22%);mask-image:linear-gradient(to right,transparent 0%,#000 22%)}
 .page-head[class*="ph-"] h1{color:#fff}
 .page-head[class*="ph-"] .lead{color:#DCE8F4}
 .page-head[class*="ph-"] .eyebrow,.page-head[class*="ph-"] .eyebrow a{color:#8FD0FF!important}
