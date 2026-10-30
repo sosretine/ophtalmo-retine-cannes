@@ -123,3 +123,24 @@ footer.site .legal{grid-column:1/-1;border-top:1px solid #234566;padding-top:20p
 .endo-fig figcaption{font-size:15px;color:var(--muted)}
 .endo-duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:16px;margin:8px 0}
 .endo-fig img{background:#fff}
+
+/* page SCRV */
+.ph-scrv{--ph:none}
+.page-head.ph-scrv::after{background-image:url(images/scrv-affiche-2026.jpg)!important;background-position:center 35%!important}
+.affiche-une{display:block;max-width:420px;justify-self:center;border-radius:12px;overflow:hidden;box-shadow:0 20px 50px rgba(13,44,75,.25);transition:transform .2s}
+.affiche-une:hover{transform:translateY(-4px)}
+.congres{background:linear-gradient(180deg,#0D2C4B 0%,#163E66 100%);color:#fff}
+.congres h2{color:#fff} .congres .eyebrow{color:#8FD0FF}
+.posters{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:36px 28px;align-items:start}
+.posters li a{display:flex;flex-direction:column;gap:10px;text-decoration:none;color:#fff}
+.posters .frame{background:#fff;border-radius:10px;aspect-ratio:4/3;position:relative;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.35);transition:transform .2s}
+.posters li a:hover .frame{transform:translateY(-6px)}
+.posters .frame img{position:absolute;inset:8px;width:calc(100% - 16px);height:calc(100% - 16px);object-fit:contain;border-radius:4px}
+.posters .y{font-family:var(--head);font-weight:700;font-size:28px;line-height:1;color:#8FD0FF}
+.posters .n{font-family:var(--head);font-weight:600;font-size:17px;line-height:1.3}
+.posters .w{font-size:14px;color:#C6D7EA}
+.refs{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px}
+.refs li{padding-left:16px;border-left:3px solid var(--line)}
+.refs .soon{background:var(--sky);border-radius:10px;padding:12px 16px;border-left:0}
+.posters.mini{grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}.posters.mini .y{font-size:18px}
+@media (max-width:860px){.posters.mini{grid-template-columns:repeat(3,minmax(0,1fr))}}
