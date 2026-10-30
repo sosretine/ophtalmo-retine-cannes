@@ -107,20 +107,16 @@ footer.site .legal{grid-column:1/-1;border-top:1px solid #234566;padding-top:20p
 @media (max-width:640px){ h1{font-size:32px} h2{font-size:26px} section{padding-block:52px} .brand img{width:58px} .facts div{border-left:0;border-top:1px solid var(--line)} .facts div:first-child{border-top:0} }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{transition:none!important}}
 
-/* bandeaux de titre : photo opératoire bien visible */
+/* bandeaux de titre : planche des lobules choroïdiens, nette sur la moitié droite */
 .page-head{position:relative;overflow:hidden;isolation:isolate}
-.page-head[class*="ph-"]{background:#0D2C4B;padding-block:88px;min-height:340px;display:flex;align-items:center}
+.page-head[class*="ph-"]{background:#0D2C4B;padding-block:72px;min-height:340px;display:flex;align-items:center}
 .page-head[class*="ph-"] .wrap{width:100%}
-.page-head[class*="ph-"]::before{content:"";position:absolute;inset:0;z-index:-2;pointer-events:none;background:var(--ph) var(--ph-pos,center)/cover no-repeat}
-.page-head[class*="ph-"]::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(13,44,75,.88) 0%,rgba(13,44,75,.6) 42%,rgba(13,44,75,.05) 80%)}
+.page-head[class*="ph-"]::after{content:"";position:absolute;top:0;right:0;bottom:0;width:52%;z-index:-1;pointer-events:none;background:url(images/planche-lobules-couleur.jpg) center 45%/cover no-repeat;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 22%);mask-image:linear-gradient(to right,transparent 0%,#000 22%)}
 .page-head[class*="ph-"] h1{color:#fff}
 .page-head[class*="ph-"] .lead{color:#DCE8F4}
 .page-head[class*="ph-"] .eyebrow,.page-head[class*="ph-"] .eyebrow a{color:#8FD0FF!important}
-.ph-dissection{--ph:url(images/op-dissection.jpg);--ph-pos:center 60%} .ph-peripherie{--ph:url(images/op-retine-peripherique.jpg);--ph-pos:center 35%}
-.ph-vitre{--ph:url(images/op-vitre.jpg);--ph-pos:center 55%} .ph-instrument{--ph:url(images/op-instrument.jpg);--ph-pos:center 45%} .ph-fond{--ph:url(images/fond-oeil.jpg);--ph-pos:right center}
-.ph-fond::before{background-size:contain!important;background-color:#000!important}
-.page-head .wrap > *{max-width:640px}
-@media (max-width:760px){.page-head[class*="ph-"]{padding-block:56px;min-height:260px}.page-head[class*="ph-"]::after{background:linear-gradient(180deg,rgba(13,44,75,.35) 0%,rgba(13,44,75,.75) 100%)}}
+.page-head .wrap > *{max-width:600px}
+@media (max-width:760px){.page-head[class*="ph-"]{padding-block:52px;min-height:240px}.page-head[class*="ph-"]::after{width:100%;opacity:.3;-webkit-mask-image:none;mask-image:none}}
 /* page endoscopie */
 .endo-fig{margin:8px 0;display:flex;flex-direction:column;gap:8px}
 .endo-fig img{border-radius:10px;box-shadow:0 8px 24px rgba(13,44,75,.12)}
