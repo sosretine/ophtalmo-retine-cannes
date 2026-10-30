@@ -118,3 +118,5 @@ footer.site .legal{grid-column:1/-1;border-top:1px solid #234566;padding-top:20p
 .endo-fig{margin:8px 0;display:flex;flex-direction:column;gap:8px}
 .endo-fig img{border-radius:10px;box-shadow:0 8px 24px rgba(13,44,75,.12)}
 .endo-fig figcaption{font-size:15px;color:var(--muted)}
+.endo-duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:16px;margin:8px 0}
+.endo-fig img{background:#fff}
