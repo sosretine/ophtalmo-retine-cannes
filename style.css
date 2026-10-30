@@ -157,3 +157,15 @@ footer.site .legal{grid-column:1/-1;border-top:1px solid #234566;padding-top:20p
 .annee .refs{font-size:15.5px}
 .refs-soon{background:var(--sky);border-radius:10px;padding:14px 18px}
 @media (max-width:640px){.annee{grid-template-columns:1fr;gap:6px}}
+
+/* articles à la une : cartes façon première page de revue */
+.unes{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));gap:24px}
+.une{position:relative;display:flex;flex-direction:column;gap:12px;min-height:400px;height:100%;padding:0 22px 22px;background:#FBF9F4;border:1px solid #E6E0D4;border-radius:6px;box-shadow:0 1px 0 #fff inset,0 14px 30px rgba(13,44,75,.12);text-decoration:none;color:var(--ink);overflow:hidden;transition:transform .2s,box-shadow .2s}
+a.une:hover{transform:translateY(-6px) rotate(-.4deg);box-shadow:0 22px 40px rgba(13,44,75,.18)}
+.une::before{content:"";display:block;height:10px;margin:0 -22px;background:var(--c)}
+.une .j{font-family:Georgia,'Times New Roman',serif;font-size:15px;font-weight:700;color:var(--c);padding-bottom:10px;border-bottom:2px solid var(--c);letter-spacing:.01em}
+.une .yr{font-family:var(--head);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.une .t{font-family:Georgia,'Times New Roman',serif;font-size:19px;line-height:1.3;color:#1B2430}
+.une .au{font-size:13.5px;line-height:1.45;color:var(--muted)}
+.une .au b{color:#1B2430}
+.une .go{margin-top:auto;font-family:var(--head);font-weight:600;font-size:13px;color:var(--c)}
