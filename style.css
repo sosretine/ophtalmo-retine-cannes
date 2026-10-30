@@ -146,3 +146,14 @@ footer.site .legal{grid-column:1/-1;border-top:1px solid #234566;padding-top:20p
 @media (max-width:860px){.posters.mini{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .humanitaire{background:#FFF7EE;border:1px solid #F1D9BC;border-radius:12px;padding:18px 22px;display:flex;flex-direction:column;gap:8px}
 .humanitaire h3{font-size:17px;color:#8A4B12}
+
+/* page publications */
+.page-head.ph-pub::after{background-image:url(images/scrv-affiche-2026.jpg)!important;background-position:center 35%!important}
+.page-head .subnav{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.page-head .subnav a{font-family:var(--head);font-weight:600;font-size:14px;text-decoration:none;padding:8px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.4);color:#fff}
+.page-head .subnav a:hover{background:rgba(255,255,255,.12)}
+.annee{display:grid;grid-template-columns:80px minmax(0,1fr);gap:16px;padding-top:16px;border-top:1px solid var(--line)}
+.annee h3{font-size:22px;color:var(--blue)}
+.annee .refs{font-size:15.5px}
+.refs-soon{background:var(--sky);border-radius:10px;padding:14px 18px}
+@media (max-width:640px){.annee{grid-template-columns:1fr;gap:6px}}
