@@ -14,6 +14,7 @@ Le cabinet prend en charge la chirurgie de la rétine à Cannes et dans les Alpe
 
 ## Chirurgie
 - [La vitrectomie](https://www.ophtalmo-retine-cannes.fr/vitrectomie.html): définition, indications, déroulement et suites de la vitrectomie
+- [L'indentation](https://www.ophtalmo-retine-cannes.fr/indentation.html): chirurgie du décollement de rétine par voie externe, indications, résultats de l'étude SCRV 2026, inconvénients, comparaison avec la vitrectomie
 - [La chirurgie par endoscopie](https://www.ophtalmo-retine-cannes.fr/endoscopie.html): vidéo-endoscopie endoculaire
 
 ## Pathologies de la rétine
