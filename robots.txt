@@ -23,4 +23,4 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-Sitemap: https://ophtalmo-retine-cannes.fr/sitemap.xml
+Sitemap: https://www.ophtalmo-retine-cannes.fr/sitemap.xml
