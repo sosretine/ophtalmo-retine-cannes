@@ -201,3 +201,4 @@ a.press:hover{box-shadow:0 12px 26px rgba(13,44,75,.12);color:var(--ink)}
 .prose thead th{background:var(--sky);color:var(--navy);font-family:var(--head);font-size:14px;border-top:0}
 .prose tbody th{font-weight:600;color:var(--ink)}
 .prose td{white-space:nowrap;font-variant-numeric:tabular-nums}
+.page-head.ph-indent::after{background-image:url(images/banniere-indentation.jpg)!important;background-position:center 45%!important}
