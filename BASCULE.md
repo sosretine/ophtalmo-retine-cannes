@@ -37,7 +37,7 @@ Préparation commencée le 19 novembre 2026, mise à jour le 21 novembre 2026 (p
 4. Vérifier qu'aucune page importante de l'ancien site n'a été oubliée (Search Console > Pages).
 5. Retrouver qui gère la fiche Google Business et s'y faire ajouter comme propriétaire.
 6. Créer le compte Cloudflare (gratuit), puis Workers & Pages > Créer > Pages > connecter le dépôt GitHub `sosretine/ophtalmo-retine-cannes` (branche `main`, aucune commande de build, dossier de sortie `/`). Le site est alors visible sur une adresse de test en `.pages.dev` : vérifier les pages et une dizaine d'anciennes adresses (les 301 doivent fonctionner).
-7. Dans le projet Cloudflare Pages : activer Web Analytics.
+7. ~~Mesure d'audience.~~ Fait le 21/11/2026 : Cloudflare Web Analytics (site « ophtalmo-retine-cannes.fr » dans le compte Cloudflare), balise ajoutée dans toutes les pages, mentions légales mises à jour.
 8. Préparer sur l'hébergement OVH un `.htaccess` qui redirige tout en 301 vers `https://www.ophtalmo-retine-cannes.fr` (à mettre en place le jour J à la place du WordPress, sauvegarde faite).
 9. Une fois le site validé sur Cloudflare Pages : désactiver GitHub Pages sur le dépôt (Settings > Pages), pour éviter un doublon de contenu en `sosretine.github.io`.
 10. 48 h avant : baisser le TTL de la ligne www à 300 secondes dans la zone OVH.
