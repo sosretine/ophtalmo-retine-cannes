@@ -1,5 +1,5 @@
 # Redirections 301 de l’ancien site WordPress vers le nouveau site
-# Cloudflare Pages ou Netlify lisent ce fichier ; GitHub Pages l’ignore (voir 404.html et les pages de redirection).
+# Cloudflare Pages lit ce fichier (hébergement retenu le 21/11/2026). GitHub Pages l’ignorait, d’où les pages de redirection et 404.html, conservées en filet de sécurité.
 
 /presentation-du-cabinet/ /#cabinet 301
 /presentation-du-cabinet /#cabinet 301
