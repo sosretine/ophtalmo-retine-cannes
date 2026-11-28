@@ -1,6 +1,6 @@
 # Ophtalmologie Rétine Cannes
 
-> Cabinet d'ophtalmologie à Cannes (29 boulevard de la Ferrage, 06400 Cannes, tél. 04 93 38 31 84) spécialisé en chirurgie de la rétine et du vitré. Trois chirurgiens vitréo-rétiniens : Dr Alexandre Portmann (président de la Société de Chirurgie Rétino-Vitréenne, SCRV), Dr Sylvain El-Khoury et Dr Jean-Paul Amar. Interventions à l'Hôpital Privé Cannes Oxford et, pour le Dr Portmann, à la Clinique Notre-Dame de la Merci.
+> Cabinet d'ophtalmologie à Cannes (29 boulevard de la Ferrage, 06400 Cannes, tél. 04 93 38 31 84) spécialisé en chirurgie de la rétine et du vitré. Trois chirurgiens vitréo-rétiniens : Dr Alexandre Portmann (président de la Société de Chirurgie Rétino-Vitréenne, SCRV), Dr Sylvain El-Khoury et Dr Jean-Paul Amar. Interventions à l'Hôpital Privé Cannes Oxford, à la Clinique Notre-Dame de la Merci (Dr Portmann) et à la Clinique du Palais à Grasse (Dr El-Khoury). Patients reçus de Cannes, Antibes, Grasse, Le Cannet, Mandelieu, Mougins, Vallauris, Valbonne et de l'est du Var ; le Dr El-Khoury consulte aussi chaque semaine à Grasse.
 
 Le cabinet prend en charge la chirurgie de la rétine à Cannes et dans les Alpes-Maritimes : vitrectomie, décollement de rétine (urgence chirurgicale), déchirure de la rétine (traitement au laser), trou maculaire, membrane épirétinienne, hémorragie du vitré, syndromes maculaires, ainsi que la chirurgie par vidéo-endoscopie endoculaire. Consultations du lundi au vendredi, 9 h – 18 h.
 
@@ -19,6 +19,7 @@ Le cabinet prend en charge la chirurgie de la rétine à Cannes et dans les Alpe
 
 ## Pathologies de la rétine
 - [Décollement de rétine](https://www.ophtalmo-retine-cannes.fr/pathologies/decollement-de-retine): signes d'alerte, conduite à tenir en urgence, chirurgie
+- [Où se faire opérer d'un décollement de rétine dans les Alpes-Maritimes](https://www.ophtalmo-retine-cannes.fr/decollement-de-retine-alpes-maritimes): Cannes, Antibes, Grasse, Le Cannet, Mandelieu, est du Var ; cliniques, accès et urgences
 - [Déchirure de la rétine](https://www.ophtalmo-retine-cannes.fr/pathologies/dechirure-de-retine): signes, traitement au laser
 - [Trou maculaire](https://www.ophtalmo-retine-cannes.fr/pathologies/trou-maculaire): chirurgie par vitrectomie, position bulle
 - [Membrane épirétinienne](https://www.ophtalmo-retine-cannes.fr/pathologies/membrane-epiretinienne): vitrectomie et pelage de la membrane
